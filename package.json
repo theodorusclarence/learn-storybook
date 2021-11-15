@@ -18,8 +18,8 @@
     "push-release": "git push --follow-tags origin main",
     "postbuild": "next-sitemap",
     "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",
@@ -64,6 +64,9 @@
     "standard-version": "^9.3.2",
     "tailwindcss": "^2.2.19",
     "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "webpack": "5"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,}": [
