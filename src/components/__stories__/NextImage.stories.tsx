@@ -18,5 +18,5 @@ Default.args = {
   src: '/favicon/apple-icon-180x180.png',
   width: '180',
   height: '180',
-  alt: 'Icon',
+  alt: 'Favicon',
 };
