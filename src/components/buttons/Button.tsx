@@ -57,7 +57,7 @@ export default function Button({
       {isLoading && (
         <div
           className={clsx(
-            'absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2',
+            'absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 flex',
             variant !== 'dark' ? 'text-black' : 'text-white'
           )}
         >
